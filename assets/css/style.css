@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+* {
+   box-sizing: border-box;
+   outline: 0;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   border: 5px double black;
+   font-family: "Open sans", sans-serif;
+   width: 100%;
+   background-color: aqua;
+   text-align: center;
+   padding: 15px;
+}
+
+body {
+   background-image: url(../img/david-pennington-T-GjUWPW-oI-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   line-height: 1.5em;
+}
+
+.conteiner {
+   border: 2px solid #000000;
+   border-radius: 1rem;
+   padding: 1rem;
+   max-width: 640px;
+   margin: 50px auto;
+   background: #fff;
+}
+
+.conteiner-input {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+li {
+   font-size: 1.3rem;
+   list-style: none;
+   margin-top: .5rem;
+}
+
+li::before {
+   list-style: none;
+   content: "— ";
+}
+
+.input-Tarefa, .button-Tarefa, .Deletar {
+   padding: 0.2rem;
+   border-radius: 5px;
+}
+
+h2 {
+   margin-bottom: 0.5rem;
+}
+
+.Deletar{
+   margin-left: .5rem;
+}
